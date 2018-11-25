@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+html{
+    background-color: #999;
+}
+#form-wrap{
+    width: 600px;
+	border: 5px solid #ccc;
+	background-color:#afc8de;
+	margin: 50px auto;
+	padding: 20px 0;
+}
+form{
+    width: 500px;
+	margin: 0 auto;
+}
+label{
+    display:block;
+	margin: 5px 0 5px 20px;
+	font: 18px sans-serif;
+	color:#888;
+}
+input{
+    width:250px;
+	margin: 0 0 0 20px;
+}
+textarea{
+    width:250px;
+	margin:0 0 0 20px;
+}
+fieledset{
+    border:none;
+	background-color: #f6f6f6;
+	padding:0 0 20px 0;
+}
+.labelone{
+    margin-top: 10px;	
+}
+.btn{
+    width:125px;	
+}
+form h4{
+     margin:20px 0 0 30px;
+	 font:24px sans-serif;
+	 color:#cdcdcd;
+	 font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+<div id="form-wrap">
+    <form>
+       <fieldset>
+       <h2> Contact Me:</h2>
+           <label class="labelone" for="name">Name: </label>
+           <input name="name"/>
+           <label for="email">Email: </label>
+           <input name="email"/>
+           <label for="message">message: </label>
+           <textarea name="message"></textarea>
+        </fieldset>
+        <fieldset>
+        <input class="btn" type="submit" value="Send Email"/>
+        <input class="btn" type="reset" value="Reset Form"   
+        </fieldset>
+    </form>
+ </div>       
+</body>
+</html>
